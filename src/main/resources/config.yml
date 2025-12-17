@@ -1,0 +1,48 @@
+settings:
+  lobby-world: world
+  min-players: 2
+  max-players: 16
+  countdown-time: 60
+  game-time: 1200
+  
+generator:
+  iron:
+    base-delay: 1
+    max-level: 4
+  gold:
+    base-delay: 8
+    max-level: 4
+  diamond:
+    base-delay: 30
+    upgrade-time-1: 120
+    upgrade-time-2: 600
+  emerald:
+    base-delay: 60
+    upgrade-time-1: 360
+
+upgrades:
+  sharpness:
+    max-level: 1
+    cost-1: 4
+  protection:
+    max-level: 4
+    cost-1: 2
+    cost-2: 4
+    cost-3: 8
+    cost-4: 16
+  haste:
+    cost: 4
+  heal-pool:
+    cost: 3
+
+messages:
+  prefix: '&8[&cBedwars&8] &7'
+  game-starting: 'Игра начнётся через {time} сек.'
+  game-started: 'Игра началась!'
+  bed-destroyed: '&c&lУНИЧТОЖЕНИЕ КРОВАТИ! {team} больше не смогут возродиться!'
+  team-eliminated: '{team} была устранена!'
+  victory: '&6Победила команда {team}!'
+  player-killed: '{player} &7был убит игроком {killer}'
+  player-final-kill: '{player} &7был окончательно убит игроком {killer}'
+  insufficient-resources: '&cНедостаточно ресурсов!'
+  item-purchased: '&aКуплено: {item}'

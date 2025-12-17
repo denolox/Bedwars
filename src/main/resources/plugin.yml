@@ -1,0 +1,15 @@
+name: Bedwars
+version: 1.0
+main: me.clanmember.Bedwars
+author: ClanMember
+api-version: 1.8
+description: Bedwars plugin for Minecraft 1.8
+
+commands:
+  bedwars:
+    description: Главная команда Bedwars
+    aliases: [bw]
+    usage: /bedwars <join|leave|list|create>
+  setup:
+    description: Настройка арены
+    usage: /setup <арена> <действие>
